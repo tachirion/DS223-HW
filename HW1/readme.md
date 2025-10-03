@@ -60,7 +60,7 @@ The analysis uses global shipment data and forecasts adoption patterns through 2
 ## Notes
 
 * 2024 global shipment value was **calculated** using China’s share of foldables in 2023 relative to global shipments, applied to China’s 2024 figure.
-* The report is **code-suppressed** (no raw R code), while full scripts are provided separately in `.R` format.
+* The report is **code-suppressed**, while full script is provided separately in `.R` format.
 * All numeric references are from credible sources and cited in the report.
 
   
