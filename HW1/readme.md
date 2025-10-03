@@ -9,22 +9,21 @@ The analysis uses global shipment data and forecasts adoption patterns through 2
 
 ```
 
-├── img/                 # Images used in the report
-│   ├── trifold.jpg      # Example image of Huawei MateXT Ultimate Design
-│   └── ...              # Other figures or illustrations
+├── img/                    # Images used in the report
+│   ├── trifold.jpg         # Example image of Huawei MateXT Ultimate Design
+│   ├── trifold.jpg         # Plot generated from the script (actual vs. forecasted)
+│   └── zfold.jpg           # Example image of Samsung Galazy Z Fold
 │
-├── data/                # Datasets used for analysis
-│   ├── foldables_raw.csv        # Source shipment data (2019–2024)
-│   ├── foldables_forecast.csv   # Bass model forecast results
-│   └── ...                      # Any other supporting datasets
+├── data/                   # Datasets used for analysis
+│   └──  data.xlsx          # Source shipment data (2019–2024)
 │
-├── report/              # Report files
+├── report/                 # Report files
 │   ├── report_source.Rmd   # Source RMarkdown file (no code output shown)
 │   ├── report.pdf          # Final compiled report
 │   └── ...
 │
-├── bass_foldables.R    # Main R script (data prep, Bass fitting, forecasting, plotting)
-├── readme.md           # This documentation file
+├── script.R                # Main R script (data prep, Bass fitting, forecasting, plotting)
+├── readme.md               # This documentation file
 
 ```
 
@@ -34,7 +33,7 @@ The analysis uses global shipment data and forecasts adoption patterns through 2
 2. Open R or RStudio in the project root.
 3. Run the analysis script:
   ```r
-   source("bass_foldables.R")
+   source("script.R")
   ```
 
 * This will:
